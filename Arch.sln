@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch", "src\Arch\Arch.csproj", "{D169F06F-F721-4D38-BC1E-9E3F7924B981}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SadSha.Arch", "src\Arch\Arch.csproj", "{D169F06F-F721-4D38-BC1E-9E3F7924B981}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Benchmarks", "src\Arch.Benchmarks\Arch.Benchmarks.csproj", "{F7CC359A-23BA-4E17-8938-D9C297B53677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SadSha.Arch.Benchmarks", "src\Arch.Benchmarks\Arch.Benchmarks.csproj", "{F7CC359A-23BA-4E17-8938-D9C297B53677}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Samples", "src\Arch.Samples\Arch.Samples.csproj", "{1A999F16-5944-4F66-B8C2-A2695B3FE74D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SadSha.Arch.Samples", "src\Arch.Samples\Arch.Samples.csproj", "{1A999F16-5944-4F66-B8C2-A2695B3FE74D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arch.Tests", "src\Arch.Tests\Arch.Tests.csproj", "{ED70B997-588C-4CD3-88BA-8C7E99A0064B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SadSha.Arch.Tests", "src\Arch.Tests\Arch.Tests.csproj", "{ED70B997-588C-4CD3-88BA-8C7E99A0064B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9FB855D-C82E-401A-A09D-95CB3486E053}"
 	ProjectSection(SolutionItems) = preProject

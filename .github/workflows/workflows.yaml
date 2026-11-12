@@ -28,7 +28,7 @@ jobs:
 
   # Building & Testing
   build:
-    name: Build Arch
+    name: Build SadSha Arch
     runs-on: ubuntu-latest
     env:
       DOTNET_CLI_TELEMETRY_OPTOUT: 1
@@ -148,9 +148,9 @@ jobs:
       # Packing
       - name: Pack with DefineConstants=${{ matrix.define }}
         run: |
-          PACKAGE_ID="Arch"
+          PACKAGE_ID="SadSha.Arch"
           if [ "${{ matrix.define }}" != "Default" ]; then
-            PACKAGE_ID="Arch-${{ matrix.define }}"
+            PACKAGE_ID="SadSha.Arch-${{ matrix.define }}"
           fi
       
           dotnet pack src/Arch/Arch.csproj --no-build --configuration $CONFIG \
@@ -207,7 +207,7 @@ jobs:
         run: |
           dotnet nuget push "./nupkg-${{ matrix.define }}/*.nupkg" \
             --api-key ${{ secrets.GITHUB_TOKEN }} \
-            --source "https://nuget.pkg.github.com/genaray/index.json" \
+            --source "https://nuget.pkg.github.com/fnjlabs-arch/index.json" \
             --skip-duplicate
 
       # Creating a github release. 

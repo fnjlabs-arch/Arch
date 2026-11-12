@@ -12,20 +12,21 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
 
-    <PackageId>Arch</PackageId>
-    <Title>Arch</Title>
+    <PackageId>SadSha.Arch</PackageId>
+    <AssemblyName>SadSha.Arch</AssemblyName>
+    <Title>SadSha Arch</Title>
     <Version>2.1.0</Version>
-    <Authors>genaray</Authors>
+    <Authors>SadSha</Authors>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Description>A high performance c# net.7 and net.8 archetype based ECS ( Entity component system ).</Description>
+    <Description>SadSha Arch is a high performance C# archetype based ECS (Entity Component System) for game development and data-oriented programming.</Description>
     <PackageReleaseNotes>- Major Rework
 - Added several new features
 - Improved speed
 - Breaking or major changes </PackageReleaseNotes>
     <PackageTags>c#;.net;.net6;.net7;ecs;game;entity;gamedev; game-development; game-engine; entity-component-system;stride;unity;godot;</PackageTags>
 
-    <PackageProjectUrl>https://github.com/genaray/Arch</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/genaray/Arch.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/fnjlabs-arch/Arch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fnjlabs-arch/Arch.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <IsPackable>true</IsPackable>
 

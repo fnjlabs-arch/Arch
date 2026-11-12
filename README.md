@@ -1,28 +1,28 @@
-![Arch](docs/arch-banner.png)
-[![Discord](https://img.shields.io/discord/1099813114876284928?style=for-the-badge&logo=discord&label=Arch)](https://discord.gg/htc8tX3NxZ)
+![SadSha Arch](docs/arch-banner.png)
+[![Discord](https://img.shields.io/discord/1099813114876284928?style=for-the-badge&logo=discord&label=SadSha%20Arch)](https://discord.gg/htc8tX3NxZ)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![Nuget](https://img.shields.io/nuget/v/Arch?style=for-the-badge)](https://www.nuget.org/packages/Arch/)
+[![Nuget](https://img.shields.io/nuget/v/SadSha.Arch?style=for-the-badge)](https://www.nuget.org/packages/SadSha.Arch/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 
-A high-performance C# based Archetype & Chunks [Entity Component System](https://www.wikiwand.com/en/Entity_component_system) (ECS) for game development and data-oriented programming.     
+**SadSha Arch** is a high-performance C# based Archetype & Chunks [Entity Component System](https://www.wikiwand.com/en/Entity_component_system) (ECS) for game development and data-oriented programming.     
 
 - 🏎️ **_FAST_** > Best cache efficiency, iteration, and allocation speed. Plays in the same league as C++/Rust ECS Libs! 
-- 🚀 **_FASTER_** > Arch is on average quite faster than other ECS implemented in C#. Check out this [Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark)!
+- 🚀 **_FASTER_** > SadSha Arch is on average quite faster than other ECS implemented in C#. Check out this [Benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark)!
 - 🤏 **_BARE MINIMUM_** >  Not bloated, it's small and only provides the essentials for you! 
-- ☕️ **_SIMPLE_** >  Promotes a clean, minimal, and self-explanatory API that is simple by design. Check out the [Wiki](https://github.com/genaray/Arch/wiki)!
+- ☕️ **_SIMPLE_** >  Promotes a clean, minimal, and self-explanatory API that is simple by design. Check out the [Wiki](https://github.com/fnjlabs-arch/Arch/wiki)!
 - 💪 _**MAINTAINED**_ > It's actively being worked on, maintained, and comes along several [Extensions](https://github.com/genaray/Arch.Extended)! 
 - 🚢 _**SUPPORT**_ > Supports .NetStandard 2.1, .Net Core 6 and 8, and therefore you may use it with Unity or Godot!
 
-Download the [package](https://github.com/genaray/Arch/packages/1697222), get started today and join the [Discord](https://discord.gg/htc8tX3NxZ)!
+Download the [package](https://github.com/fnjlabs-arch/Arch/packages/1697222), get started today and join the [Discord](https://discord.gg/htc8tX3NxZ)!
 ```console
-dotnet add PROJECT package Arch --version 2.1.0-beta
+dotnet add PROJECT package SadSha.Arch --version 2.1.0-beta
 ```
 
 # ⏩ Quickstart
 
-Arch is bare minimum, easy to use, and efficient. Let's say you want to create some game entities and make them move based on their velocity... sounds complicated?
-It's not! Arch does everything for you, you only need to define the entities and the logic.
+SadSha Arch is bare minimum, easy to use, and efficient. Let's say you want to create some game entities and make them move based on their velocity... sounds complicated?
+It's not! SadSha Arch does everything for you, you only need to define the entities and the logic.
 
 I bet you don't want to read tons of documentation, theory, and other boring stuff right?  
 Let's just ignore all that deep knowledge and jump in directly to get something done. 
@@ -52,7 +52,7 @@ world.Query(in query, (Entity entity, ref Position pos, ref Velocity vel) => {
 # 💡 Highlights
 
 This is all you need to know, with this little knowledge you are already able to bring your worlds to life.  
-However, if you want to take a closer look at Arch's features and performance techniques, check out the [Wiki](https://arch-ecs.gitbook.io/arch)! 
+However, if you want to take a closer look at SadSha Arch's features and performance techniques, check out the [Wiki](https://arch-ecs.gitbook.io/arch)! 
 There's more to explore, for example...
 
 ## 🤝 Our promise
@@ -79,16 +79,16 @@ There's more to explore, for example...
 
 # 🧩 Extensions
 
-Arch has some extensions that add more features and tools. Among them for example : 
+SadSha Arch has some extensions that add more features and tools. Among them for example : 
 - 🛠️ **_[Arch.Extended](https://github.com/genaray/Arch.Extended)_** >  Adds a set of tools and features to save boilerplate code!
 - 🔎 *_[Godot Entity Debugger](https://github.com/RoadTurtleGames/ArchGodotEntityDebugger)_* > An Arch Entity debugger for the Godot engine!
 - 🔎 *_[Stride Entity Debugger](https://github.com/Doprez/stride-arch-ecs)_* > An example of Arch in the Stride engine, with additional entity and system inspector!
 - 🔎 *_[Arch.Unity](https://github.com/AnnulusGames/Arch.Unity)_* > A library that makes the integration of Arch in Unity much easier, with many cool new features!
 - 🔎 *_[Zinc-Framework](https://github.com/zinc-framework)_* > A small but fine engine framework which is based on Arch and also has its own source generator to define entities declaratively!
-- ❓ **_Your Tool-Library?_** > If you develop more tools and features for Arch, let us know and we'll list them here!
+- ❓ **_Your Tool-Library?_** > If you develop more tools and features for SadSha Arch, let us know and we'll list them here!
 
 # 🚀 Performance
-Arch is already one of the fastest ECS and uses the best techniques under the hood to achieve maximum performance and efficiency. 
+SadSha Arch is already one of the fastest ECS and uses the best techniques under the hood to achieve maximum performance and efficiency. 
 Care is always taken to find a healthy balance between CPU performance and ram utilization. 
 
 If you are more interested, have a look at the [benchmark](https://github.com/Doraku/Ecs.CSharp.Benchmark)! 
@@ -98,8 +98,8 @@ Were we able to convince you? If so, let's get started.
 We have prepared a whole wiki to explain all the important aspects and provide examples. 
 Click here for the [documentation](https://arch-ecs.gitbook.io/arch)!
 
-# 💻 Projects using Arch
-Arch is already used in some projects, for a more detailed look, take a look at the [wiki](https://github.com/genaray/Arch/wiki/Projects-using-Arch)!
+# 💻 Projects using SadSha Arch
+SadSha Arch is already used in some projects, for a more detailed look, take a look at the [wiki](https://github.com/fnjlabs-arch/Arch/wiki/Projects-using-Arch)!
 
 ## [Space Station 14](https://spacestation14.io/)
 Space Station 14 is inspired by the cult classic Space Station 13 and tells the extraordinary story of everything that can go wrong on a shift at a space station. You take on a role and complete your tasks so that the space station doesn't go to the dogs... or do the exact opposite. Prepare yourself for chaos and the finest roleplay. Best of all, SS14 is open-source and anyone can play!
@@ -116,8 +116,8 @@ Equilibrium Engine is a data-oriented C# game engine that takes advantage of ECS
 ![Equilibrium Engine screenshot](https://raw.githubusercontent.com/clibequilibrium/EquilibriumEngine-CSharp/master/docs/home.png)
 
 # Contributors
-<a href="https://github.com/genaray/Arch/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=genaray/Arch" />
+<a href="https://github.com/fnjlabs-arch/Arch/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=fnjlabs-arch/Arch" />
 </a>
 
-A huge thanks to all the supporters who did their part, especially [TwistableGolf](https://github.com/TwistableGolf) for their dedication and design of the official Arch logo and banner! 
+A huge thanks to all the supporters who did their part, especially [TwistableGolf](https://github.com/TwistableGolf) for their dedication and design of the official SadSha Arch logo and banner! 

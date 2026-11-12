@@ -84,14 +84,14 @@ main() {
 }
 
 #
-# Hack the package name / id in the Arch cs project. This is the only way I have
+# Hack the package name / id in the SadSha Arch cs project. This is the only way I have
 # found to make the package name depend on a binary variant. Perhaps there is a
 # better way...
 #
 hackcsproj() {
     doit cp src/Arch/Arch.csproj src/Arch/Arch.csproj.bak
-    doit sed -i "s#<PackageId>Arch</PackageId>#<PackageId>Arch-$1</PackageId>#" src/Arch/Arch.csproj
-    doit sed -i "s#<Title>Arch</Title>#<Title>Arch-$1</Title>#" src/Arch/Arch.csproj
+    doit sed -i "s#<PackageId>SadSha.Arch</PackageId>#<PackageId>SadSha.Arch-$1</PackageId>#" src/Arch/Arch.csproj
+    doit sed -i "s#<Title>SadSha Arch</Title>#<Title>SadSha Arch-$1</Title>#" src/Arch/Arch.csproj
 }
 
 #
